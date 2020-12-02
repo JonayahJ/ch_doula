@@ -1,0 +1,38 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+@import "layout/header";
+
+@import "pages/about";
+@import "pages/black-maternity";
+@import "pages/contact";
+@import "pages/home";
+@import "pages/resources";
+
+
+/* Universal Selector */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // font-size: 10px based on 16px is 62.5%
+    // This defines what 1rem is (global setting)
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
