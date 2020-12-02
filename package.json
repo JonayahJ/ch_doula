@@ -1,0 +1,32 @@
+{
+  "name": "ch_doula",
+  "version": "1.0.0",
+  "description": "Crystal Haynes' custom doula website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonayahJ/ch_doula.git"
+  },
+  "keywords": [
+    "doula",
+    "maternity",
+    "black",
+    "women",
+    "pregnancy",
+    "labor",
+    "midwife",
+    "service"
+  ],
+  "author": "Jonayah M. Jackson (http://www.thinkhalcyon.com, http://www.jonayah.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonayahJ/ch_doula/issues"
+  },
+  "homepage": "https://github.com/JonayahJ/ch_doula#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
